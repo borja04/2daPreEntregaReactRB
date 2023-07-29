@@ -1,4 +1,4 @@
-import './ItemDetail.css';
+import './css/ItemDetail.css';
 import ItemCount from "./ItemCount";
 import React from 'react';
 import { Col, Card } from 'react-bootstrap';

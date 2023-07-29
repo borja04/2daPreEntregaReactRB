@@ -1,4 +1,4 @@
-import './ItemDetail.css';
+import './css/ItemDetail.css';
 import React from 'react';
 import { Col, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
@@ -18,7 +18,7 @@ const Item = ({ id, name, img, price, stock }) => {
                             Precio:${price}
                         </Card.Text>
                         <Card.Text>
-                            Stock Disponibke{stock}
+                            Stock Disponible{stock}
                         </Card.Text>
                         <footer className="ItemFooter">
                             <Link to={`/item/${id}`} className='Option'>

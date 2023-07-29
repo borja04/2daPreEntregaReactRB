@@ -1,0 +1,94 @@
+.imgProducto {
+    height: 350px;
+}
+
+;
+
+.navStyle {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: 'space-between';
+    align-items: 'center';
+}
+
+.titleStyle {
+    color: #900C3F;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.buttonStyle {
+    background-color: gray;
+    color: white;
+    border: 'none';
+    border-radius: '5px';
+    padding: '8px 12px';
+    margin: '0 5px';
+    cursor: 'pointer';
+}
+
+
+/* .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 80%;
+    border-radius: 5px;
+} */
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Ajusta el espacio entre las cards */
+    max-width: 900px;
+    /* Cambia el tamaño según tus necesidades */
+    margin: 0 auto;
+    /* Centrar el contenido */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+    /* Ajusta el tamaño de las cards, 3 cards en una fila */
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #0f0d0e;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+
+    /* En pantallas pequeñas, muestra las cards en una columna */
+    .card {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-description {
+    text-align: center;
+}
+
+.card-price {
+    font-weight: bold;;
+}
+
+.card-button {
+    text-align: center;
+}
